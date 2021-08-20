@@ -1,0 +1,45 @@
+.productList {
+  flex: 4;
+}
+
+.productListItem {
+  display: flex;
+  align-items: center;
+}
+
+.productlistImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.productListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.productListEdit:hover {
+  background-color: #52db99;
+}
+
+.productListDelete {
+  color: red;
+  cursor: pointer;
+}
+
+.productListDelete:hover {
+  background-color: #f1c3c0;
+  border-radius: 50%;
+}
+
+.productListDelete:active {
+  background-color: #ec493d;
+  border-radius: 50%;
+}

@@ -1,0 +1,43 @@
+.userlist {
+  flex: 4;
+}
+
+.userlistUser {
+  display: flex;
+  align-items: center;
+}
+
+.userlistImg {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.userListEdit:hover {
+  background-color: #52db99;
+}
+
+.userListDelete {
+  color: red;
+}
+
+.userListDelete:hover {
+  background-color: #f1c3c0;
+  border-radius: 50%;
+}
+
+.userListDelete:active {
+  background-color: #ec493d;
+  border-radius: 50%;
+}
